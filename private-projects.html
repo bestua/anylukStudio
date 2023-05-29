@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title lang="en">WebStudio-Private-Projects</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.css"
+    />
+    <link rel="stylesheet" href="./css/portfolio.min.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <div class="container">
+        <div class="mob_container">
+          <a
+            class="logo link"
+            href="./index.html"
+            aria-label="WebStudio главная страница"
+            lang="en"
+          >
+            <span class="logo-second-color">Anylyk</span
+            ><span class="logo-light-theme-color">Studio</span>
+          </a>
+          <button
+            type="button"
+            class="menu-button"
+            aria-expanded="false"
+            aria-controls="id-menu-cont"
+            data-menu-button
+          >
+            <svg
+              width="24"
+              height="16"
+              aria-label="Переключатель мобильного меню"
+            >
+              <use class="icon-menu" href="./images/sprite.svg#icon-menu"></use>
+              <use
+                class="icon-close"
+                href="./images/sprite.svg#icon-close"
+              ></use>
+            </svg>
+          </button>
+        </div>
+
+        <div class="menu-container" data-menu id="id-menu-cont">
+          <nav class="nav">
+            <ul class="nav-list list">
+              <li class="nav-list-li">
+                <a class="nav-list-link link" href="./index.html">Home </a>
+              </li>
+              <li class="nav-list-li">
+                <a class="nav-list-link link current" href="./portfolio.html"
+                  >Portfolio
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+          <address class="adress">
+            <ul class="adress-list list">
+              <li class="adress-list-li">
+                <a
+                  class="adress-list-link link"
+                  href="mailto:info@anylykstudio.com"
+                >
+                  <svg class="adress-list-svg" width="16" height="12">
+                    <use href="./images/sprite.svg#icon-envelope"></use>
+                  </svg>
+                  info@anylykstudio.com
+                </a>
+              </li>
+              <li class="adress-list-li">
+                <a class="adress-list-link link" href="tel:+380961111111">
+                  <svg class="adress-list-svg" width="10" height="16">
+                    <use href="./images/sprite.svg#icon-phone"></use>
+                  </svg>
+                  <!-- info@devstudio.com -->
+                  +38 096 111 11-11
+                </a>
+              </li>
+            </ul>
+          </address>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="section">
+        <!-- PORTFOLIO MENU  -->
+        <div class="container">
+          <section class="portfolio-menu">
+            <h2 class="visually-hidden">Projects</h2>
+            <ul class="portfolio-menu-list list">
+              <li class="portfolio-menu-item">
+                <a class="portfolio-menu-list-link link" href="./portfolio.html"
+                  >Все</a
+                >
+              </li>
+              <li class="portfolio-menu-item">
+                <a class="portfolio-menu-list-link link" href="">Веб-сайты</a>
+              </li>
+              <li class="portfolio-menu-item">
+                <a class="portfolio-menu-list-link link" href="">Приложения</a>
+              </li>
+              <li class="portfolio-menu-item">
+                <a class="portfolio-menu-list-link link" href="">Дизайн</a>
+              </li>
+              <li class="portfolio-menu-item">
+                <a
+                  class="
+                    portfolio-menu-list-link portfolio-menu-list-link-current
+                    link
+                  "
+                  href=""
+                  >Private projects</a
+                >
+              </li>
+            </ul>
+          </section>
+        </div>
+
+        <!-- PORTFOLIO ITEMS LIST  -->
+        <div class="container">
+          <ul class="portfolio-items list">
+            <li class="portfolio-items-li">
+              <a href="" class="portfolio-items-link link">
+                <div class="portfolio-items__wrapper">
+                  <!-- 11111111111111111111111111 -->
+                  <img
+                    class="portfolio-items__pic"
+                    src="./images/privateProjects/IMG20230511215309.jpg"
+                    alt="Фотографии троих сотрудников"
+                    width="100%"
+                  />
+                  <p class="overlay">
+                    Nieborów - Warsztaty Rękodzieła Ludowego. Wypieka chleba.
+                  </p>
+                </div>
+                <div class="portfolio-items-border">
+                  <h1 class="portfolio-items-title">May 11, 2023</h1>
+                  <p class="portfolio-items-description">Nieborów</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-items-li">
+              <a href="" class="portfolio-items-link link">
+                <div class="portfolio-items__wrapper">
+                  <!-- 11111111111111111111111111 -->
+                  <img
+                    class="portfolio-items__pic"
+                    src="./images/privateProjects/IMG20230517151556.jpg"
+                    alt="Фотографии троих сотрудников"
+                    width="100%"
+                  />
+                  <p class="overlay">
+                    Bolimów - Warsztaty Garncarski Rodziny Konopczyńskich.
+                  </p>
+                </div>
+                <div class="portfolio-items-border">
+                  <h1 class="portfolio-items-title">May 11, 2023</h1>
+                  <p class="portfolio-items-description">Bolimów</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-items-li">
+              <a href="" class="portfolio-items-link link">
+                <div class="portfolio-items__wrapper">
+                  <!-- 11111111111111111111111111 -->
+                  <img
+                    class="portfolio-items__pic"
+                    src="./images/privateProjects/gigaLaurka/IMG20230522193048.jpg"
+                    alt="Фотографии троих сотрудников"
+                    width="100%"
+                  />
+                  <img
+                    class="portfolio-items__pic"
+                    src="./images/privateProjects/gigaLaurka/IMG20230522193057.jpg"
+                    alt="Фотографии троих сотрудников"
+                    width="100%"
+                  />
+                  <img
+                    class="portfolio-items__pic"
+                    src="./images/privateProjects/gigaLaurka/IMG20230522193112.jpg"
+                    alt="Фотографии троих сотрудников"
+                    width="100%"
+                  />
+                  <p class="overlay">SP3 - Cała Polska Maluje Giga Laurkę.</p>
+                </div>
+                <div class="portfolio-items-border">
+                  <h1 class="portfolio-items-title">May 22, 2023</h1>
+                  <p class="portfolio-items-description">SP3, Pabianice</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-items-li">
+              <a href="" class="portfolio-items-link link">
+                <div class="portfolio-items__wrapper">
+                  <!-- 11111111111111111111111111 -->
+                  <img
+                    class="portfolio-items__pic"
+                    src="./images/privateProjects/konkursPapugaMay2023/IMG20230522193135.jpg"
+                    alt="Фотографии троих сотрудников"
+                    width="100%"
+                  />
+                  <p class="overlay">
+                    Konkurs plastyczny - Najpiękniejsza papuga.
+                  </p>
+                </div>
+                <div class="portfolio-items-border">
+                  <h1 class="portfolio-items-title">May, 2023</h1>
+                  <p class="portfolio-items-description">SP3, Pabianice</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__cont-social-wrap">
+          <div class="footer__logo">
+            <a
+              class="logo link"
+              href="./index.html"
+              aria-label="WebStudio главная страница"
+              lang="en"
+            >
+              <span class="logo-second-color">Web</span
+              ><span class="logo-dark-theme-color">Studio</span>
+            </a>
+
+            <address class="footer__adress">
+              <ul class="list">
+                <li class="footer-list-li">
+                  <span class="footer-adress"
+                    >г. Киев, пр-т Леси Украинки, 26</span
+                  >
+                </li>
+                <li class="footer-list-li">
+                  <a
+                    class="footer-adress-list-link link"
+                    href="mailto:info@exapmle.com"
+                  >
+                    info@exapmle.com
+                  </a>
+                </li>
+                <li class="footer-list-li">
+                  <a
+                    class="footer-adress-list-link link"
+                    href="tel:+380991111111"
+                  >
+                    +38 099 111 11 11
+                  </a>
+                </li>
+              </ul>
+            </address>
+          </div>
+
+          <div class="connect-us">
+            <h4 class="title-dark-theme">Присоединяйтесь</h4>
+            <ul class="social-list list">
+              <li class="social-list-item">
+                <a href="" class="social-list-link connect-us-social-list-link">
+                  <svg class="social-list-svg connect-us-social-list-svg">
+                    <use href="./images/sprite.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-list-item">
+                <a href="" class="social-list-link connect-us-social-list-link">
+                  <svg class="social-list-svg connect-us-social-list-svg">
+                    <use href="./images/sprite.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-list-item">
+                <a href="" class="social-list-link connect-us-social-list-link">
+                  <svg class="social-list-svg connect-us-social-list-svg">
+                    <use href="./images/sprite.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-list-item">
+                <a href="" class="social-list-link connect-us-social-list-link">
+                  <svg class="social-list-svg connect-us-social-list-svg">
+                    <use href="./images/sprite.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <form action="#" class="subscribe-form">
+          <h4 class="title-dark-theme">Подпишись на рассылку</h4>
+          <div class="subscribe-wrapper">
+            <div class="subscribe-form__inp-wrap">
+              <input
+                type="email"
+                name="subscribe-email"
+                class="subscribe-form__input"
+                placeholder="E-mail"
+              />
+            </div>
+
+            <div class="subscribe-form__btn-wrapper">
+              <button type="submit" class="subscribe-form__submit-btn">
+                Подписаться
+                <svg width="24" height="24" class="subscribe-send-svg">
+                  <use href="./images/sprite.svg#icon-send"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </footer>
+    <script src="./js/menu.js"></script>
+  </body>
+</html>
